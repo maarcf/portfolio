@@ -124,10 +124,6 @@ header {
   margin-bottom: 50px;
 }
 
-.tachar-texto {
-  text-decoration: line-through;
-}
-
 .contenedor-imagen-seccion-principal {
   display: flex; 
 }

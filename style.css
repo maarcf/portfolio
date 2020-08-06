@@ -81,9 +81,8 @@ header {
         SECCIÓN PRINCIPAL
 ==================================*/
 #seccion-principal {
-  margin: 20px 50px 50px 70px;
+  margin: 50px;
   display: flex;
-  height: 80vh; /*Como el header está ocupando espacio de la pantalla, si pongo el 100vh no entra la imagen en la pantalla*/
 }
 
 .contenedor-informacion-seccion-principal {
@@ -93,6 +92,7 @@ header {
   font-weight: 900;
   letter-spacing: 2px;
   line-height: 1.4;
+  width: 45%;
 }
 
 .texto-arriba-del-titulo-principal {
@@ -125,10 +125,11 @@ header {
 }
 
 .contenedor-imagen-seccion-principal {
-  display: flex; 
+  display: flex;
+  width: 50%;
 }
 
 .imagen-seccion-principal {
-  width: 700px;
+  width: 100%;
   height: auto;
 }

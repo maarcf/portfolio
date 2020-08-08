@@ -16,9 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===============================
-        HEADER AND NAV
-==================================*/
+/* ==================================
+        HEADER AND NAV SUPERIOR y 
+      algunos estilos NAV INFERIOR
+=====================================*/
 
 header {
   background-color: #ffffff;
@@ -34,11 +35,11 @@ header {
   display: flex;
 }
 
-.lista-menu-pc {
+.lista-menu-pc, .lista-menu-inferior {
   display: flex;
 }
 
-.indice-navegacion-superior {
+.indice-navegacion-superior, .indice-navegacion-inferior {
   list-style-type: none;
   margin: 0 12px;
   display: flex;
@@ -61,7 +62,7 @@ header {
 }
 
 /* Estilado de los botones seccion nav, hola y boton activo en proyectos */
-.web-boton, .boton-activado-seccion-proyectos {
+.web-boton {
   background-color: #5db56a;
   cursor: pointer;
   font-size: 18px;
@@ -75,6 +76,7 @@ header {
   background-color: #f25518;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
+
 /* Fin de css de botones */
 
 /* ===============================
@@ -196,10 +198,10 @@ header {
   margin-top: 20px;
 }
 
-/* ===============================
-          SECCIÓN FRASE
-==================================*/
-#seccion-frase {
+/* =============================================
+          SECCIÓN FRASE y algo de CONTACTO
+================================================*/
+#seccion-frase, #contacto {
   background-color: #5db56a;
   display: flex;
   justify-content: center;
@@ -207,7 +209,7 @@ header {
   padding: 60px 50px;
 }
 
-.contenedor-de-los-elementos-de-la-seccion-frase {
+.contenedor-de-los-elementos-de-la-seccion-frase, .contenedor-elementos-de-la-seccion-contacto {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -215,6 +217,9 @@ header {
   align-items: center;
   color: #ffffff;
   text-align: center;
+}
+
+.fas.fa-quote-right {
   font-size: 85px;
 }
 
@@ -261,6 +266,7 @@ header {
   color: #030303;
 }
 
+
 .contenedor-proyectos-seccion-proyectos {
   display: flex;
   flex-wrap: wrap;
@@ -290,4 +296,55 @@ header {
 .imagen-proyecto-seccion-proyectos {
   width: 100%;
   height: auto;
+}
+
+/* ===============================
+        SECCIÓN CONTACTO
+==================================*/
+/* Algunos estilos para no repetir están en la sección del nav superior y en la sección de frase */
+
+.contenedor-elementos-de-la-seccion-contacto {
+  display: flex;
+}
+
+.links-menu-inferior {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.contenedor-iconos-redes-sociales-seccion-contacto {
+  display: flex;
+  margin: 30px 0;
+
+}
+.iconos-redes-sociales-seccion-contacto {
+  background-color: #fff;
+  padding: 15px 17px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.link-social-media {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5db56a;
+}
+
+.link-social-media:hover {
+  color: #5db56a;
+}
+
+.texto-al-final-del-footer {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.texto-al-final-del-footer > span {
+  text-decoration: underline;
 }

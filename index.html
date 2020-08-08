@@ -20,7 +20,7 @@
       <ul class="lista-menu-pc">
         <li class="indice-navegacion-superior"><a href="#sobre-mi">HOLA</a></li>
         <li class="indice-navegacion-superior"><a href="#conocimientos">CONOCIMIENTOS</a></li>
-        <li class="indice-navegacion-superior"><a href="proyectos">PROYECTOS</a></li>
+        <li class="indice-navegacion-superior"><a href="#proyectos">PROYECTOS</a></li>
         <li class="indice-navegacion-superior"><a href="#contacto"><button class="web-boton">CONTACTO</button></a></li>
       </ul>
       <div class="menu-celular">
@@ -93,7 +93,7 @@
     <div class="contenedor-titulo-y-botones-seccion-proyectos">
       <h2 class="titulo-seccion-proyectos">Mis Proyectos</h2>
       <div class="contenedor-botones-seccion-proyectos">
-        <button class="boton-activado-seccion-proyectos"><a class="link-navegacion-proyectos" href="">Todos</a></button>
+        <a class="link-navegacion-proyectos" href=""><button class="web-boton">Todos</button></a> <!--Esta en este orden para que tome las ordenes del boton y no del <a>-->
         <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">HTML/CSS</a></button>
         <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">JavaScript</a></button>
         <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">React</a></button>
@@ -147,5 +147,35 @@
   </section>
 
   <!-- Footer -->
+  <footer id="contacto">
+    <div class="contenedor-elementos-de-la-seccion-contacto">
+      <nav class="menu-inferior">
+        <ul class="lista-menu-inferior">
+        <li class="indice-navegacion-inferior"><a class="links-menu-inferior" href="#sobre-mi">HOLA</a></li>
+        <li class="indice-navegacion-inferior"><a class="links-menu-inferior" href="#conocimientos">CONOCIMIENTOS</a></li>
+        <li class="indice-navegacion-inferior"><a class="links-menu-inferior" href="#proyectos">PROYECTOS</a></li>
+        <li class="indice-navegacion-inferior"><a class="links-menu-inferior" href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+      <div class="contenedor-iconos-redes-sociales-seccion-contacto">
+        <div class="iconos-redes-sociales-seccion-contacto">
+          <a class="link-social-media" href="https://twitter.com/maarcf" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="iconos-redes-sociales-seccion-contacto">
+          <a class="link-social-media" href="https://github.com/maarcf" target="_blank"><i class="fab fa-github-alt"></i></a>
+        </div>
+        <div class="iconos-redes-sociales-seccion-contacto">
+          <a class="link-social-media" href="https://www.linkedin.com/in/mariana-cairo/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="iconos-redes-sociales-seccion-contacto">
+          <a class="link-social-media" href="marr.cairo@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <p class="texto-al-final-del-footer">Hecho con 🥰 y 🥑 por <span>Mariana</span> 🤸 </p>
+    </div>
+
+  </footer>
 </body>
 </html>

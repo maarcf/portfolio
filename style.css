@@ -60,8 +60,8 @@ header {
   cursor: pointer;
 }
 
-/* Estilado de todos los botones de la web */
-.web-boton {
+/* Estilado de los botones seccion nav, hola y boton activo en proyectos */
+.web-boton, .boton-activado-seccion-proyectos {
   background-color: #5db56a;
   cursor: pointer;
   font-size: 18px;
@@ -136,25 +136,26 @@ header {
   height: auto;
 }
 
-/* ===============================
-        SECCIÓN CONOCIMIENTOS
-==================================*/
-#conocimientos {
+/* =============================================
+    SECCIÓN CONOCIMIENTOS Y algo de PROYECTOS
+================================================*/
+#conocimientos, #proyectos {
   background-color: #f6f7fb;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 60px 50px;
 }
 
-.contenedor-informacion-seccion-conocimientos {
+.contenedor-informacion-seccion-conocimientos, .contenedor-titulo-y-botones-seccion-proyectos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.titulo-seccion-conocimientos {
+.titulo-seccion-conocimientos, .titulo-seccion-proyectos {
   font-size: 45px;
   font-weight: 900;
   margin: 30px 0;
@@ -190,7 +191,7 @@ header {
   align-items: center;
 }
 
-.nombre-tecnologia-seccion-conocimientos {
+.nombre-tecnologia-seccion-conocimientos, .nombre-del-proyecto-seccion-proyectos {
   font-size: 22px;
   margin-top: 20px;
 }
@@ -226,4 +227,67 @@ header {
 .autor-de-la-frase-seccion-frase {
   font-size: 28px;
   font-weight: 700;
+}
+
+/* ===============================
+        SECCIÓN PROYECTOS
+==================================*/
+.contenedor-botones-seccion-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.boton-seccion-proyectos {
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: transparent;
+}
+.boton-seccion-proyectos:hover {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+.link-navegacion-proyectos {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 10px;
+}
+.link-navegacion-proyectos:visited {
+  color: #030303;
+}
+
+.contenedor-proyectos-seccion-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.contenedor-tarjetas-de-proyectos-seccion-proyectos {
+  background-color: #fff;
+  border: 1px solid #dddfe5;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-imagen-seccion-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.imagen-proyecto-seccion-proyectos {
+  width: 100%;
+  height: auto;
 }

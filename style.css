@@ -118,6 +118,7 @@ header {
   color: #5db56a;
 }
 
+
 .texto-abajo-del-titulo-principal {
   font-size: 18px;
   font-weight: 400;
@@ -138,3 +139,58 @@ header {
 /* ===============================
         SECCIÓN CONOCIMIENTOS
 ==================================*/
+#conocimientos {
+  background-color: #f6f7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.contenedor-informacion-seccion-conocimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-seccion-conocimientos {
+  font-size: 45px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.texto-abajo-del-titulo-conocimientos {
+  width: 400px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contenedor-tecnologias-seccion-conocimientos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 900px;
+}
+
+.tarjeta-tecnologia-seccion-conocimientos {
+  font-size: 85px;
+  background-color: #fff;
+  border: 1px solid #dddfe5;
+  border-radius: 8px;
+  width: 230px;
+  margin: 10px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre-tecnologia-seccion-conocimientos {
+  font-size: 22px;
+  margin-top: 20px;
+}

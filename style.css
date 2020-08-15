@@ -440,7 +440,11 @@ header {
 
 }
 
-@media (max-width: 650px) and (min-width: 441px) {
+@media (max-width: 650px) and (min-width: 501px) {
+  header {
+    padding: 25px 0;
+  }
+
   .menu-superior {
     margin-right: 10px;
   }
@@ -486,7 +490,7 @@ header {
   .tarjeta-tecnologia-seccion-conocimientos {
     width: 200px;
   }
-
+  
   .contenedor-tarjetas-de-proyectos-seccion-proyectos {
     width: 400px;
     padding: 60px 30px;
@@ -517,7 +521,11 @@ header {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 501px) {
+  header {
+    padding: 25px 0;
+  }
+
   .menu-superior {
     margin-right: 10px;
   }
@@ -528,7 +536,7 @@ header {
   
   .menu-celular {
     display: flex;
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   #seccion-principal {

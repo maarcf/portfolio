@@ -21,4 +21,21 @@ Son bienvenidas sugeriencias y opiniones que sean constructivas. Es un proyecto 
 
 ---
 
-## [:uk:]
+## [:us:] - English
+
+Hi, I'm Mariana. :wave:
+
+I'm studying Frontend Web Development in *[ADA ITW](https://adaitw.org/)*.
+
+This is my personal portfolio, you can see my skills and some of my projects.
+
+### Technologies
+This project was built with CSS 3 and HTML 5.
+See the project [here](https://maarcf.github.io/portfolio/)
+
+### Extra Info
+Feedback and constructive opinions are welcome. Although this project is finished, some functionalities will be add in future. 
+
+- Get in touch:
+[![Linkedin](https://img.shields.io/badge/-MarianaCairo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)
+[![Twitter: maarcf](https://img.shields.io/twitter/follow/maarcf?style=social)](https://twitter.com/maarcf)

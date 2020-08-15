@@ -25,7 +25,7 @@ Son bienvenidas sugeriencias y opiniones que sean constructivas. Es un proyecto 
 
 Hi, I'm Mariana. :wave:
 
-I'm studying Frontend Web Development in *[ADA ITW](https://adaitw.org/)*.
+I'm studying **Frontend Web Development** in *[ADA ITW](https://adaitw.org/)*.
 
 This is my personal portfolio, you can see my skills and some of my projects.
 
@@ -37,7 +37,11 @@ See the project [here](https://maarcf.github.io/portfolio/)
 Feedback and constructive opinions are welcome. Although this project is finished, some functionalities will be add in future. 
 
 - Get in touch:
-  - [![Linkedin](https://img.shields.io/badge/-MarianaCairo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)
+  - [![Linkedin](https://img.shields.io/badge/-MarianaCairo-blue?style=flat-square&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)
   - [![Twitter: maarcf](https://img.shields.io/twitter/follow/maarcf?style=social)](https://twitter.com/maarcf)
-  
+
   - [![Linkedin Badge](https://img.shields.io/badge/-Mariana%20Cairo-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)
+
+  - [![Twitter](https://img.shields.io/badge/-Twitter-blue?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/maarcf)](https://twitter.com/maarcf)
+
+ - [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)

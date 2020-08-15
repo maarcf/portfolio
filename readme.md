@@ -1,6 +1,6 @@
 # Mi Portfolio
 
-## [:es:] - Español
+## Español
 
 Hola, soy Mariana. :wave:
 
@@ -21,7 +21,7 @@ Son bienvenidas sugeriencias y opiniones que sean constructivas. Es un proyecto 
 
 ---
 
-## [:en:] - English
+## English
 
 Hi, I'm Mariana. :wave:
 

@@ -451,6 +451,7 @@ header {
   
   .menu-celular {
     display: flex;
+    margin-right: 10px;
   }
 
   #seccion-principal {
@@ -527,6 +528,7 @@ header {
   
   .menu-celular {
     display: flex;
+    margin-right: 10px;
   }
 
   #seccion-principal {

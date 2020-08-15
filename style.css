@@ -528,7 +528,7 @@ header {
   
   .menu-celular {
     display: flex;
-    margin-right: 10px;
+    margin-right: 0;
   }
 
   #seccion-principal {

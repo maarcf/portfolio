@@ -195,6 +195,7 @@ header {
 .titulo-de-la-tarjeta {
   font-size: 22px;
   margin-top: 20px;
+  text-align: center;
 }
 
 /* =============================================
@@ -351,3 +352,254 @@ header {
 /* ===============================
           MEDIA QUERY
 ==================================*/
+
+@media (max-width: 1150px) and (min-width: 901px) {
+  #seccion-principal {
+    margin: 30px;
+  }
+  
+  .texto-arriba-del-titulo-principal {
+    font-size: 25px;
+  }
+  
+  .titulo-principal-h1 {
+    font-size: 45px;
+  }
+  
+  .contenedor-proyectos-seccion-proyectos {
+    width: 800px;
+  }
+
+}
+
+@media (max-width: 900px) and (min-width: 651px) {
+  .menu-superior {
+    margin-right: 10px;
+  }
+
+  .links-menu-superior {
+    font-size: 14px;
+  }
+
+  #seccion-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-informacion-seccion-principal {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .texto-abajo-del-titulo-principal {
+    text-align: center;
+  }
+
+  .contenedor-imagen-seccion-principal {
+    width: 600px;
+    height: auto;
+  }
+
+  .contenedor-tecnologias-seccion-conocimientos, .contenedor-proyectos-seccion-proyectos {
+    width: auto;
+  }
+
+  .tarjeta-tecnologia-seccion-conocimientos {
+    width: 200px;
+  }
+
+  .contenedor-tarjetas-de-proyectos-seccion-proyectos {
+    width: 230px;
+    padding: 30px 10px;
+  }
+
+  .contenedor-imagen-seccion-proyectos {
+    width: 180px;
+  }
+
+  .contenedor-elementos-de-la-seccion-complementaria {
+    width: 90%;
+  }
+
+  .fas.fa-quote-right {
+    font-size: 70px;
+  }
+  
+  .frase-inspiradora-seccion-frase {
+    font-size: 20px;
+  }
+  
+  .autor-de-la-frase-seccion-frase {
+    font-size: 25px;
+  }
+
+  .menu-inferior {
+    display: none;
+  }
+
+}
+
+@media (max-width: 650px) and (min-width: 441px) {
+  .menu-superior {
+    margin-right: 10px;
+  }
+
+  .lista-menu-pc {
+    display: none;
+  }
+  
+  .menu-celular {
+    display: flex;
+  }
+
+  #seccion-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-informacion-seccion-principal {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .titulo-principal-h1 {
+    font-size: 40px;
+  }
+
+  .texto-abajo-del-titulo-principal {
+    text-align: center;
+  }
+
+  .contenedor-imagen-seccion-principal {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-tecnologias-seccion-conocimientos, .contenedor-proyectos-seccion-proyectos {
+    width: auto;
+    justify-content: center;
+  }
+
+  .tarjeta-tecnologia-seccion-conocimientos {
+    width: 200px;
+  }
+
+  .contenedor-tarjetas-de-proyectos-seccion-proyectos {
+    width: 400px;
+    padding: 60px 30px;
+  }
+
+  .contenedor-imagen-seccion-proyectos {
+    width: 350px;
+  }
+
+  .contenedor-elementos-de-la-seccion-complementaria {
+    width: 90%;
+  }
+
+  .fas.fa-quote-right {
+    font-size: 70px;
+  }
+  
+  .frase-inspiradora-seccion-frase {
+    font-size: 20px;
+  }
+  
+  .autor-de-la-frase-seccion-frase {
+    font-size: 25px;
+  }
+
+  .menu-inferior {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .menu-superior {
+    margin-right: 10px;
+  }
+
+  .lista-menu-pc {
+    display: none;
+  }
+  
+  .menu-celular {
+    display: flex;
+  }
+
+  #seccion-principal {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10px;
+  }
+
+  .contenedor-informacion-seccion-principal {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    line-height: 1;
+  }
+
+  .texto-arriba-del-titulo-principal {
+    font-size: 20px;
+}
+
+  .titulo-principal-h1 {
+    font-size: 30px;
+  }
+
+  .texto-abajo-del-titulo-principal, .texto-al-final-del-footer {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .contenedor-imagen-seccion-principal {
+    width: 100%;
+    height: auto;
+  }
+
+  .titulo-seccion-con-tarjetas {
+    font-size: 25px;
+  }
+
+  .texto-abajo-del-titulo-conocimientos {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .contenedor-tecnologias-seccion-conocimientos, .contenedor-proyectos-seccion-proyectos {
+    width: auto;
+    justify-content: center;
+  }
+
+  .link-navegacion-proyectos {
+    font-size: 12px;
+    padding: 0;
+  }
+  .boton-seccion-proyectos {
+    margin: 0 5px;
+  }
+
+  .contenedor-elementos-de-la-seccion-complementaria {
+    width: 90%;
+  }
+
+  .fas.fa-quote-right {
+    font-size: 70px;
+  }
+  
+  .frase-inspiradora-seccion-frase {
+    font-size: 20px;
+  }
+  
+  .autor-de-la-frase-seccion-frase {
+    font-size: 25px;
+  }
+
+  .menu-inferior {
+    display: none;
+  }
+  
+}

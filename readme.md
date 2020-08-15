@@ -21,7 +21,7 @@ Son bienvenidas sugeriencias y opiniones que sean constructivas. Es un proyecto 
 
 ---
 
-## [:us:] - English
+## [:en:] - English
 
 Hi, I'm Mariana. :wave:
 

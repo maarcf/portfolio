@@ -400,9 +400,9 @@ header {
     width: 600px;
     height: auto;
   }
-
+  
   .contenedor-tecnologias-seccion-conocimientos, .contenedor-proyectos-seccion-proyectos {
-    width: auto;
+    width: 550px;
   }
 
   .tarjeta-tecnologia-seccion-conocimientos {

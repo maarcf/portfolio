@@ -577,8 +577,10 @@ header {
     transition: all 2s;
     transform: translateY(-240px);
   }
-  .aparecer {
+  
+  .mostrar-menu-desplegable {
     transform: translateY(0);
+    box-shadow: 0 20px 20px 0 rgba(134, 134, 134, 0.35);
   }
 
   #seccion-principal {

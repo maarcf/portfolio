@@ -28,6 +28,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 .menu-superior {
@@ -47,6 +48,14 @@ header {
   justify-content: center;
 }
 
+.indice-navegacion-celular {
+  list-style-type: none;
+  padding: 8px 20px;
+  display: flex;
+  align-self: center;
+  border-bottom: 1px solid #cacaca;
+}
+
 .links-menu-superior {
   text-decoration: none;
   font-size: 18px;
@@ -54,7 +63,7 @@ header {
   color: #030303;
 }
 
-.menu-celular {
+.contenedor-menu-celular {
   display: none;
   font-size: 25px;
   margin-right: 30px;
@@ -452,12 +461,28 @@ header {
   .lista-menu-pc {
     display: none;
   }
-  
-  .menu-celular {
+
+  .contenedor-menu-celular {
     display: flex;
+    flex-direction: column;
     margin-right: 10px;
   }
 
+  .menu-celular {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    transition: all 2s;
+    transform: translateY(-240px);
+  }
+  .aparecer {
+    transform: translateY(0);
+  }
+  
   #seccion-principal {
     flex-direction: column;
     align-items: center;
@@ -534,9 +559,25 @@ header {
     display: none;
   }
   
+  .contenedor-menu-celular {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
   .menu-celular {
     display: flex;
-    margin-right: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    transition: all 2s;
+    transform: translateY(-240px);
+  }
+  .aparecer {
+    transform: translateY(0);
   }
 
   #seccion-principal {

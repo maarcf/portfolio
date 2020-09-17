@@ -18,15 +18,42 @@
   <header>
     <nav class="menu-superior">
       <ul class="lista-menu-pc">
-        <li class="indice-navegacion"><a class="links-menu-superior" href="#sobre-mi">HOLA</a></li>
-        <li class="indice-navegacion"><a class="links-menu-superior" href="#conocimientos">CONOCIMIENTOS</a></li>
-        <li class="indice-navegacion"><a class="links-menu-superior" href="#proyectos">PROYECTOS</a></li>
-        <li class="indice-navegacion"><a class="links-menu-superior" href="#contacto"><button class="web-boton">CONTACTO</button></a></li>
+        <li class="indice-navegacion">
+          <a class="links-menu-superior" href="#sobre-mi">HOLA</a>
+        </li>
+        <li class="indice-navegacion">
+          <a class="links-menu-superior" href="#conocimientos">CONOCIMIENTOS</a>
+        </li>
+        <li class="indice-navegacion">
+          <a class="links-menu-superior" href="#proyectos">PROYECTOS</a>
+        </li>
+        <li class="indice-navegacion">
+          <a class="links-menu-superior" href="#contacto">
+            <button class="web-boton">CONTACTO</button>
+          </a>
+        </li>
       </ul>
-      <div class="menu-celular">
-        <i class="fas fa-bars"></i>
-      </div>
     </nav>
+
+    <div class="contenedor-menu-celular">
+      <i id="icono-desplegable" class="fas fa-bars"></i>
+      <nav class="menu-celular">
+        <ul class="lista-menu-celular">
+          <li class="indice-navegacion-celular">
+            <a class="links-menu-superior" href="#sobre-mi">HOLA</a>
+          </li>
+          <li class="indice-navegacion-celular">
+            <a class="links-menu-superior" href="#conocimientos">CONOCIMIENTOS</a>
+          </li>
+          <li class="indice-navegacion-celular">
+            <a class="links-menu-superior" href="#proyectos">PROYECTOS</a>
+          </li>
+          <li class="indice-navegacion-celular">
+            <a class="links-menu-superior" href="#contacto">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Sección Principal -->
@@ -176,5 +203,7 @@
     </div>
 
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>

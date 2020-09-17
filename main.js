@@ -5,5 +5,5 @@ const icono = document.getElementById('icono-desplegable');
 menuCelular.onclick = () => {
   icono.classList.toggle('fa-bars');
   icono.classList.toggle('fa-times');
-  linksMenuCelular.classList.toggle('aparecer');
+  linksMenuCelular.classList.toggle('mostrar-menu-desplegable');
 }

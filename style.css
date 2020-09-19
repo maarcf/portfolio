@@ -70,23 +70,7 @@ header {
   cursor: pointer;
 }
 
-/* Estilado de los botones seccion nav, hola y boton activo en proyectos */
-.web-boton {
-  background-color: #5db56a;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 400;
-  color: #ffffff;
-  border: none;
-  border-radius: 50px;
-  padding: 10px 30px;
-}
-.web-boton:hover {
-  background-color: #f25518;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-}
 
-/* Fin de css de botones */
 
 /* ===============================
         SECCIÓN PRINCIPAL
@@ -244,7 +228,7 @@ header {
 }
 
 /* ===============================
-        SECCIÓN PROYECTOS
+    SECCIÓN PROYECTOS y BOTONES
 ==================================*/
 .contenedor-botones-seccion-proyectos {
   display: flex;
@@ -252,7 +236,7 @@ header {
   align-items: center;
   margin-bottom: 30px;
 }
-
+/* Estilado de los botones seccion nav, hola y boton activo en proyectos */
 .boton-seccion-proyectos {
   cursor: pointer;
   border: none;
@@ -260,10 +244,23 @@ header {
   margin: 0 10px;
   background-color: transparent;
 }
-.boton-seccion-proyectos:hover {
-  border: 2px solid #000000;
-  border-radius: 5px;
+
+.web-boton, .boton-seccion-proyectos:focus {
+  background-color: #5db56a;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
 }
+.web-boton:hover {
+  background-color: #f25518;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Fin de css de botones */
 
 .link-navegacion-proyectos {
   text-decoration: none;
@@ -283,7 +280,7 @@ header {
   width: 1100px;
 }
 
-.contenedor-tarjetas-de-proyectos-seccion-proyectos {
+.tarjetas-de-proyectos-seccion-proyectos {
   background-color: #fff;
   border: 1px solid #dddfe5;
   border-radius: 8px;
@@ -418,7 +415,7 @@ header {
     width: 200px;
   }
 
-  .contenedor-tarjetas-de-proyectos-seccion-proyectos {
+  .tarjetas-de-proyectos-seccion-proyectos {
     width: 230px;
     padding: 30px 10px;
   }
@@ -517,7 +514,7 @@ header {
     width: 200px;
   }
   
-  .contenedor-tarjetas-de-proyectos-seccion-proyectos {
+  .tarjetas-de-proyectos-seccion-proyectos {
     width: 400px;
     padding: 60px 30px;
   }
@@ -656,4 +653,24 @@ header {
     display: none;
   }
   
+}
+
+@media (max-width: 380px) {
+  .contenedor-botones-seccion-proyectos {
+    flex-direction: column;
+  }
+
+  .boton-seccion-proyectos {
+    margin: 5px;
+  }
+
+  .tarjetas-de-proyectos-seccion-proyectos {
+    width: 220px;
+    padding: 60px 30px;
+  }
+}
+
+/* Clase para el JS */
+.hidden {
+  display: none;
 }

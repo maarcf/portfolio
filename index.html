@@ -119,51 +119,51 @@
     <div class="contenedor-titulo-e-info-seccion-con-tarjetas">
       <h2 class="titulo-seccion-con-tarjetas">Mis Proyectos</h2>
       <div class="contenedor-botones-seccion-proyectos">
-        <a class="link-navegacion-proyectos" href=""><button class="web-boton">Todos</button></a> <!--Esta en este orden para que tome las ordenes del boton y no del <a>-->
-        <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">HTML/CSS</a></button>
-        <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">JavaScript</a></button>
-        <button class="boton-seccion-proyectos"><a class="link-navegacion-proyectos" href="">React</a></button>
+        <button data-tecnologia="todos" class="web-boton boton-seccion-proyectos">Todos</button>
+        <button data-tecnologia="html/css" class="boton-seccion-proyectos">HTML/CSS</button>
+        <button data-tecnologia="javascript" class="boton-seccion-proyectos">JavaScript</button>
+        <button data-tecnologia="react" class="boton-seccion-proyectos">React</button>
       </div>
     </div>
 
     <div class="contenedor-proyectos-seccion-proyectos">
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="html/css">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/portfolio.svg" alt="portfolio de los proyectos realizados">
         </div> 
         <h3 class="titulo-de-la-tarjeta">Mi Portfolio</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="javascript">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/tienda.svg" alt="Proyecto Tienda">
         </div> 
         <h3 class="titulo-de-la-tarjeta">Tienda</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="javascript">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/memotest.svg" alt="Proyecto Juego de memoria">
         </div> 
-        <h3 class="titulo-de-la-tarjeta">Juego de memoria</h3>
+        <h3 class="titulo-de-la-tarjeta">Juego Match</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="javascript">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/gastos.svg" alt="Proyecto Controlador de gastos">
         </div> 
         <h3 class="titulo-de-la-tarjeta">Controlador de gastos</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="javascript">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/administrador-reuniones.svg" alt="Proyecto Administrador de reuniones">
         </div> 
         <h3 class="titulo-de-la-tarjeta">Administrador de reuniones</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="react">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/to-do-list.svg" alt="Proyecto de CheckList">
         </div> 
         <h3 class="titulo-de-la-tarjeta">Todo app</h3>
       </div>
-      <div class="contenedor-tarjetas-de-proyectos-seccion-proyectos">
+      <div class="tarjetas-de-proyectos-seccion-proyectos" data-tecnologia="react">
         <div class="contenedor-imagen-seccion-proyectos">
           <img class="imagen-proyecto-seccion-proyectos" src="img/pelicula.svg" alt="Proyecto buscador de peliculas">
         </div> 
